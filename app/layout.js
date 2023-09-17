@@ -1,14 +1,10 @@
 "use client"
+
 import Navbar from '../components/Navbar'
 import './globals.css'
 import Sidebar from '../components/Sidebar'
 import { useState } from 'react'
 
-
-export const metadata = {
-  title: 'Dashboard',
-  description: 'dashboard',
-}
 
 export default function RootLayout({ children }) {
   const [toggle, setToggle] = useState(false);
