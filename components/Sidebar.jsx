@@ -36,7 +36,7 @@ const Sidebar = ({ open }) => {
           ))}
         </div>
 
-      <div className="px-2 md:mt-5 mt-20 2xl:mt-20 relative overflow-hidden py-4 blue-gradient rounded-lg flex flex-col gap-2 w-48">
+      <div className="px-2 md:mt-5 mt-6 2xl:mt-20  relative overflow-hidden py-4 blue-gradient rounded-lg flex flex-col gap-2 w-48">
         <Image src="/dot-2.png" width={22} height={29} />
         <h2 className="text-white font-bold text-xl">Increase your work with kanban</h2>
         <Image src="/arrow.png" width={24} height={11} />
