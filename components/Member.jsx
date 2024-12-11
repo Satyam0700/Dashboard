@@ -14,9 +14,9 @@ const Member = () => {
                             <Image src="/add.png" width={24} height={24} />
                             <p className="text-white font-bold">Invite People </p>
                         </div>
-                        <span className="text-white font-bold px-4 py-2 border border-[#7879F1] rounded-lg">Private</span>
-                        <span className="text-white font-bold px-4 py-2 rounded-lg bg-[#7879F1]">Edit</span>
-                        <div className="flex items-center gap-2 px-4 py-2 border border-[#7879F1] rounded-lg">
+                        <span className="text-white font-bold px-4 py-2 border border-[#7879F1] cursor-pointer rounded-lg">Private</span>
+                        <span className="text-white font-bold px-4 py-2 rounded-lg bg-[#7879F1] cursor-pointer">Edit</span>
+                        <div className="flex items-center gap-2 px-4 py-2 border border-[#7879F1] cursor-pointer rounded-lg">
                             <Image src="/chat.png" width={24} height={24} />
                             <span className="text-white font-semibold">45 Comments</span>
                         </div>
